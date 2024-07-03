@@ -16,8 +16,8 @@ public class DemoApplication {
 		* Editora - ok - ok
 		* Pessoa - ok - ok
 		* Emprestimo - ok - ok
-		* Exemplar - ok
-		* Devolucao 
+		* Exemplar - ok - ok
+		* Devolucao - 
 		* 
 		*/
 	}
