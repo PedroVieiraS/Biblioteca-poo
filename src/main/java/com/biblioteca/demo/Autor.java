@@ -1,6 +1,12 @@
 package com.biblioteca.demo;
 
 public class Autor {
-    int autor_id;
-    String nome;
+    private int autor_id;
+    private String nome;
+
+    public Autor(){
+        
+    }
+
+
 }
