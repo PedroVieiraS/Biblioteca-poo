@@ -10,9 +10,9 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 
 		/* 
-		* Livro - ok 
-		* Autor - ok
-		* Endereco - ok
+		* Livro - ok - ok
+		* Autor - ok - ok
+		* Endereco - ok - ok
 		* Editora - ok
 		* Pessoa - ok
 		* Emprestimo - ok

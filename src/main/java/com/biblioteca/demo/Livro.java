@@ -5,6 +5,12 @@ public class Livro {
     private String edicao;
     private String titulo;
 
+    public Livro(String edicao, String titulo){
+        this.edicao = edicao;
+        this.titulo = titulo;
+        livro_id = contador;
+        contador++;
+    }
 
     public int getLivro_id() {
         return livro_id;
@@ -19,18 +25,9 @@ public class Livro {
         return titulo;
     }
 
-
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
-
-    public Livro(String edicao, String titulo){
-        this.edicao = edicao;
-        this.titulo = titulo;
-        livro_id = contador;
-        contador++;
-    }
-
 
     public String getEdicao(){
         return edicao;
