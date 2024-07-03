@@ -13,8 +13,8 @@ public class DemoApplication {
 		* Livro - ok - ok
 		* Autor - ok - ok
 		* Endereco - ok - ok
-		* Editora - ok
-		* Pessoa - ok
+		* Editora - ok - ok
+		* Pessoa - ok - ok
 		* Emprestimo - ok
 		* Exemplar - ok
 		* Devolucao 
