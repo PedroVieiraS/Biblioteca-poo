@@ -1,6 +1,6 @@
 package com.biblioteca.demo;
 
-public class Autor {
-    int autor_id;
+public class Editora {
+    int editora_id;
     String nome;
 }

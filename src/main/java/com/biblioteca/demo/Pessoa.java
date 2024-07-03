@@ -1,7 +1,7 @@
 package com.biblioteca.demo;
 
 public class Pessoa {
-    
+    int pessoa_id;
     String rg;
     String cpf;
     String nome;
@@ -9,15 +9,3 @@ public class Pessoa {
 }
 
 
-/* 
- * Livro
- * Autor
- * Endereco
- * Editora
- * Pessoa
- * Emprestimo
- * Exemplar
- * Emprestimo
- * Devolucao 
- * 
-*/
