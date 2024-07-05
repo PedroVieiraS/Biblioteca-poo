@@ -1,19 +1,29 @@
 package com.biblioteca.demo;
 
-public class Pessoa {
+public abstract class Pessoa {
     private static int contador = 0;
     private int pessoa_id;
-    private String rg;  
+    private String rg;
     private String cpf;
     private String nome;
+    private Endereco endereco;
     
-    public Pessoa(String rg, String cpf, String nome){
-        this.rg = rg;
-        this.cpf = cpf;
+    public Pessoa( String nome, String cpf, String rg){
         this.nome = nome;
+        this.cpf = cpf;
+        this.rg = rg;
         pessoa_id = contador;
         contador++;
     }
+    
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
+    }
+    
     
     public String getRg() {
         return rg;

@@ -3,22 +3,27 @@ package com.biblioteca.demo;
 public class Endereco {
     private static int contador = 0;
     private int endereco_id;
-    private int uf;
     private String cidade;
-    private String tipo;
-    private String logradouro;
-    private String complemento;
-    
+    private String cep;
     
 
-    public Endereco (int uf, String cidade, String tipo, String logradouro, String complemento){
-        this.uf = uf;
+    public Endereco ( String cidade, String cep){
         this.cidade = cidade;
-        this.tipo = tipo;
-        this.logradouro = logradouro;
-        this.complemento = complemento;
+        this.cep = cep;
         endereco_id = contador;
         contador++;
+    }
+
+    public String getCep() {
+        return cep;
+    }
+
+    public void setCep(String cep) {
+        this.cep = cep;
+    }
+
+    public Endereco (String cidade){
+        this.cidade = cidade;
     }
     
     public int getEndereco_id() {
@@ -29,14 +34,6 @@ public class Endereco {
         this.endereco_id = endereco_id;
     }
     
-    public int getUf() {
-        return uf;
-    }
-    
-    public void setUf(int uf) {
-        this.uf = uf;
-    }
-    
     public String getCidade() {
         return cidade;
     }
@@ -44,30 +41,4 @@ public class Endereco {
     public void setCidade(String cidade) {
         this.cidade = cidade;
     }
-    
-    public String getTipo() {
-        return tipo;
-    }
-
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
-
-    public String getLogradouro() {
-        return logradouro;
-    }
-
-    public void setLogradouro(String logradouro) {
-        this.logradouro = logradouro;
-    }
-
-    public String getComplemento() {
-        return complemento;
-    }
-
-    public void setComplemento(String complemento) {
-        this.complemento = complemento;
-    }
-
-    
 }
